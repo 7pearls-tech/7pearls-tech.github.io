@@ -1,0 +1,22 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<section>
+  <div class="wrap proof">
+    <div class="rv">
+      <p class="eyebrow">{t("Dowód z wdrożenia")}</p>
+      <div class="mega">−31<em>%</em></div>
+      <p class="lead">{t("folii na każdej palecie po zejściu ze 130 do 90 µm w hucie szkła. W części dostaw 70 µm, bez utraty stabilności palety w weekendowym transporcie.")}</p>
+      <div class="btns" style="margin-top:32px"><a class="btn btn-soft" href={cfg.caseUrl}>{t("Zobacz case study")} <span class="ic" aria-hidden="true">→</span></a></div>
+    </div>
+    <div class="vids">
+      <figure class="rv"><video controls muted playsinline preload="metadata" poster="https://kablonex.pl/wp-content/uploads/2026/10/huta-szkla-naklad-rekawa-864x1080-1.webp" src="https://kablonex.pl/wp-content/uploads/2026/09/huta-szkla-rekaw-termokurczliwy-paleta-1-1.mp4"></video><figcaption>{t("Nakładanie rękawa i obkurcz na cold-endzie.")}</figcaption></figure>
+      <figure class="rv"><video controls muted playsinline preload="metadata" poster="https://kablonex.pl/wp-content/uploads/2026/10/huta-szkla-po-obkurczu-864x1080-1.webp" src="https://kablonex.pl/wp-content/uploads/2026/09/huta-szkla-rekaw-termokurczliwy-paleta-2-1.mp4"></video><figcaption>{t("Paleta po obkurczu, folia zakotwiczona pod płozami.")}</figcaption></figure>
+    </div>
+  </div>
+</section>

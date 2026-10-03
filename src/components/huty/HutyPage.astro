@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import { config } from '../../i18n/config';
+import { translateScript } from '../../i18n/translate-script';
+import type { Lang } from '../../i18n/t';
+import clientSource from './client.js?raw';
+import '../../styles/huty.css';
+
+import Hero from './Hero.astro';
+import ProofBar from './ProofBar.astro';
+import ColdEnd from './ColdEnd.astro';
+import Calculator from './Calculator.astro';
+import CaseProof from './CaseProof.astro';
+import WhyKablonex from './WhyKablonex.astro';
+import Timeline from './Timeline.astro';
+import Products from './Products.astro';
+import Faq from './Faq.astro';
+import Booking from './Booking.astro';
+
+const { lang } = Astro.props as { lang: Lang };
+const cfg = config[lang];
+const client = translateScript(clientSource, lang);
+---
+<Base
+  lang={lang}
+  title={cfg.title}
+  description={cfg.description}
+  canonical={cfg.liveUrl}
+  path="huty/"
+>
+  <div class="kxh">
+    <Hero lang={lang} />
+    <ProofBar lang={lang} />
+    <ColdEnd lang={lang} />
+    <Calculator lang={lang} />
+    <CaseProof lang={lang} />
+    <WhyKablonex lang={lang} />
+    <Timeline lang={lang} />
+    <Products lang={lang} />
+    <Faq lang={lang} />
+    <Booking lang={lang} />
+  </div>
+  <script is:inline set:html={client} />
+</Base>

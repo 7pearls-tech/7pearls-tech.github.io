@@ -1,0 +1,31 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<section class="book-sec" id="rozmowa">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">{t("Rozmowa")}</p>
+      <h2>{t("Porozmawiajmy o Waszej palecie")}</h2>
+      <p class="lead">{t("20 minut z technologiem Kablonex. Bez prezentacji handlowej: Wasza maszyna, formaty palet i wynik z kalkulatora.")}</p>
+    </div>
+    <div class="book rv">
+      <div class="box">
+        <h3>{t("Umów rozmowę z technologiem")}</h3>
+        <p style="font-size:16px;margin:0 0 24px">{t("20 minut online albo telefonicznie. Termin ustalimy po zgłoszeniu.")}</p>
+        <a class="btn btn-red" href="#rozmowa" id="kxh_bookBtn" data-ev="booking_click">{t("Umów 20 min z technologiem")} <span class="ic" aria-hidden="true">→</span></a>
+        <p class="kxh-note" id="kxh_bookNote" hidden style="margin-top:16px">{t("Wyślijcie wynik formularzem obok, a technolog oddzwoni i umówi termin rozmowy w ciągu 24 h w dni robocze.")}</p>
+      </div>
+      <div class="box form" id="kxh_form">
+        <h3>{t("Wyślij wynik do technologa")}</h3>
+        <p class="sla">{t("Formularz działa na stronie Kablonex. Technolog odpowiada w ciągu 24 h w dni robocze.")}</p>
+        <a class="btn btn-red" href={cfg.liveUrl + '#rozmowa'} style="justify-content:center">{t("Przejdź do formularza na kablonex.pl")} <span class="ic" aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="sticky" id="kxh_sticky"><a class="btn btn-red" id="kxh_stickyBtn" href="#kalkulator" data-ev="calc_anchor">{t("Policz folię na paletę")}</a></div>

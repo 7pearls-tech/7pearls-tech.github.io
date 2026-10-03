@@ -1,0 +1,26 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+import Certs from './Certs.astro';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<div class="hero-out">
+<section class="hero" style="padding:0">
+  <div class="wrap">
+    
+    <h1>{t("Ile folii zostawiacie na każdej palecie szkła?")}</h1>
+    <p>{t("Policz masę i koszt rękawa termokurczliwego na paletę w 2 minuty. Wynik od razu, bez podawania maila.")}</p>
+    <div class="btns">
+      <a class="btn btn-red" href="#kalkulator" data-ev="calc_anchor">{t("Policz w 2 minuty")} <span class="ic" aria-hidden="true">↓</span></a>
+      <a class="btn btn-glass" href="#rozmowa" data-ev="booking_click">{t("Umów 20 min z technologiem")}</a>
+    </div>
+  </div>
+  <div class="hero-side">
+  <a class="chip" href={cfg.caseUrl}><small>{t("Wdrożenie w hucie szkła")}</small><b>130 → 90 µm</b><span>{t("bez tłuczenia w transporcie · zobacz case →")}</span></a>
+  <div class="certs-slot" aria-label={t("Certyfikaty")}><Certs /></div>
+  </div>
+</section>
+</div>

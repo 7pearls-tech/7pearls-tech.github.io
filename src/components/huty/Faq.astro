@@ -1,0 +1,22 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="rv"><p class="eyebrow">FAQ</p><h2>{t("Pytania technologów z hut")}</h2></div>
+    <div class="faq" style="margin-top:40px">
+      <details class="rv"><summary>{t("Czy zmiana folii wymaga przestawienia maszyny nakładającej rękaw i obkurczu?")}</summary><p>{t("Nie, jeśli folia jest skalibrowana pod Twój system: sposób otwierania rękawa, temperaturę i czas obkurczu. Zaczynamy od modelu maszyny i obecnych ustawień, a nowa receptura ma pracować w tym samym oknie procesowym. Zmiany ustawień, jeśli w ogóle, ustalamy na próbie.")}</p></details>
+      <details class="rv"><summary>{t("Jak cienko można zejść na palecie szkła?")}</summary><p>{t("We wdrożeniu w hucie szkła zeszliśmy ze 130 do 90 µm, a w części dostaw do 70 µm, bez utraty stabilności palety w weekendowym transporcie. Granicę wyznacza Twój format palety, wysokość, trasa i to, czy linia robi undershrink, dlatego pocienienie zawsze poprzedza próba na linii i test transportowy.")}</p></details>
+      <details class="rv"><summary>{t("Czy folia zakotwiczy się pod płozami palety (undershrink)?")}</summary><p>{t("Tak, pod warunkiem właściwego naddatku rękawa i receptury o kontrolowanym obkurczu w obu kierunkach. Undershrink to element specyfikacji, o który pytamy na starcie, bo decyduje o długości rękawa i o tym, jak folia zachowa się przy hamowaniu naczepy.")}</p></details>
+      <details class="rv"><summary>{t("Co z dziurami od przekładek i naroży warstw?")}</summary><p>{t("Odporność na przebicie budujemy recepturą i strukturą wielowarstwową, nie samą grubością. Dlatego folia 90 µm może być odporniejsza na przebicie niż standardowa 130 µm. Prosimy o trzy najczęstsze defekty z Waszych kodów jakościowych, bo od nich zaczynamy dobór.")}</p></details>
+      <details class="rv"><summary>{t("Czy dostępne są warianty z PCR i jak je dokumentujecie?")}</summary><p>{t("Dla wybranych aplikacji rozwijamy warianty z 30-50% PCR. Docelowy udział potwierdzamy po analizie maszyny, obecnej folii, wymagań optycznych i próbie na linii. Rozróżniamy PCR od PIR, a udział recyklatu dokumentujemy w łańcuchu ISCC PLUS (mass balance). Nie deklarujemy „zgodności z PPWR” bez potwierdzenia kategorii opakowania i dokumentacji.")}</p></details>
+      <details class="rv"><summary>{t("Palety stoją na placu. Czy folia to wytrzyma?")}</summary><p>{t("Do składowania na zewnątrz stosujemy dodatki UV stabilizujące folię przy ekspozycji na słońce. Czas składowania i trasy to jedno z pytań specyfikacji: od tego zależy dobór stabilizacji i grubości.")}</p></details>
+      <details class="rv"><summary>{t("Ile formatów palet obsłużycie i jakie są terminy?")}</summary><p>{t("Rękaw z zakładkami albo kaptur dopasowujemy do każdego formatu i wysokości palety, przy szerokości do 2600 mm. Seria od 500 kg na indeks, standardowy termin 3-4 tygodnie, express 7-10 dni, rolki próbne w 5-10 dni roboczych.")}</p></details>
+    </div>
+  </div>
+</section>

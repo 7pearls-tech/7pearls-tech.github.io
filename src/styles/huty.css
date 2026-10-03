@@ -1,0 +1,238 @@
+.kxh{
+  --ink:#151226;--txt:#3D4657;--muted:#697586;--red:#E93635;--red-t:#B32D2E;--line:#E3E8EF;
+  --bg2:#F7F9FC;--bg3:#EEF2F6;--pink:#FDF2F2;--red-a:rgba(233,54,53,.86);
+  --r-xl:32px;--r-lg:24px;--r-md:16px;--r-sm:12px;--pill:999px;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+.kxh,.kxh *{box-sizing:border-box}
+.kxh{scroll-behavior:smooth}
+.kxh{margin:0;font-family:Inter,system-ui,sans-serif;color:var(--txt);background:#fff;font-size:17px;line-height:1.6}
+.kxh h1,.kxh h2,.kxh h3{color:var(--ink);margin:0;font-weight:500;letter-spacing:-.02em;line-height:1.08}
+.kxh a{color:var(--red-t)}
+.kxh .wrap{max-width:1320px;margin:0 auto;padding:0 32px}
+.kxh section{padding:112px 0}
+.kxh .eyebrow{display:block;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--red-t);margin:0 0 20px}
+.kxh h2{font-size:clamp(32px,4.2vw,56px)}
+.kxh .lead{font-size:20px;line-height:1.55;margin:20px 0 0;max-width:56ch}
+.kxh .tbc{background:#FFF1B8;color:#5C4A00;padding:1px 6px;border-radius:6px;font-size:.85em;white-space:nowrap;font-weight:600}
+.kxh .btn{display:inline-flex;align-items:center;gap:12px;font:600 16px Inter;padding:16px 28px;border-radius:var(--pill);text-decoration:none;border:1px solid transparent;cursor:pointer;min-height:52px;transition:background-color .25s,transform .25s var(--ease),border-color .25s;-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.kxh .btn:hover{transform:translateY(-2px)}
+.kxh .btn .ic{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:rgba(255,255,255,.22);margin-right:-12px;transition:transform .25s var(--ease)}
+.kxh .btn:hover .ic{transform:translateX(3px)}
+.kxh .btn-red{background:var(--red-a);color:#fff;border-color:rgba(233,54,53,.3)}
+.kxh .btn-red:hover{background:var(--red)}
+.kxh .btn-glass{background:rgba(255,255,255,.16);color:#fff;border-color:rgba(255,255,255,.45)}
+.kxh .btn-glass:hover{background:rgba(255,255,255,.26)}
+.kxh .btn-soft{background:rgba(21,18,38,.05);color:var(--ink);border-color:rgba(21,18,38,.12)}
+.kxh .btn-soft .ic{background:rgba(21,18,38,.08)}
+.kxh .btn-soft:hover{background:rgba(21,18,38,.09)}
+.kxh.anim .rv{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+.kxh.anim .rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){.kxh.anim .rv{opacity:1;transform:none;transition:none}
+.kxh{scroll-behavior:auto}}
+.kxh .hero-out{padding:12px 12px 0}
+.kxh .hero{position:relative;border-radius:var(--r-xl);overflow:hidden;min-height:min(86vh,780px);display:flex;align-items:flex-end;color:#fff;background:#8A94A6 url(https://kablonex.pl/wp-content/uploads/2026/10/huta-szkla-cold-end-paleta-1920.webp) 100% 50%/cover no-repeat}
+.kxh .hero::before{content:"";position:absolute;inset:0;background:rgba(21,18,38,.26)}
+.kxh .hero .wrap{position:relative;width:100%;padding-top:120px;padding-bottom:64px}
+.kxh .hero .crumb{position:absolute;top:32px;left:32px;font-size:13px;color:rgba(255,255,255,.85)}
+.kxh .hero .eyebrow{color:#fff}
+
+.kxh .hero h1{color:#fff;font-size:clamp(44px,6.4vw,92px);max-width:13ch;letter-spacing:-.035em;line-height:1}
+.kxh .hero p{font-size:20px;max-width:44ch;margin:28px 0 36px;color:rgba(255,255,255,.92)}
+.kxh .btns{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+.kxh .hero-side{position:absolute;right:32px;bottom:64px;width:400px;display:flex;flex-direction:column;gap:12px}
+.kxh .certs-slot{border-radius:var(--r-lg);background:rgba(255,255,255,.88);-webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);padding:14px 22px;overflow:hidden}
+.kxh .chip{display:block;padding:22px 24px;border-radius:var(--r-lg);background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);color:#fff;text-decoration:none}
+.kxh .chip small{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;opacity:.85}
+.kxh .chip b{display:block;white-space:nowrap;font-size:40px;font-weight:500;letter-spacing:-.03em;line-height:1.1;margin:6px 0 4px}
+.kxh .chip span{font-size:14px;opacity:.9}
+.kxh .chip:hover{background:rgba(255,255,255,.24)}
+.kxh .proofbar{padding:40px 0 0}
+.kxh .proofbar .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:24px 48px}
+.kxh .pb b{display:block;font-size:30px;font-weight:500;color:var(--ink);letter-spacing:-.02em;line-height:1.1}
+.kxh .pb span{font-size:14px;color:var(--muted)}
+.kxh .split{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:64px;align-items:start}
+.kxh .sticky-col{position:sticky;top:96px}
+.kxh .plist{list-style:none;margin:0;padding:0;counter-reset:p}
+.kxh .plist li{counter-increment:p;display:grid;grid-template-columns:72px 1fr;gap:8px 24px;padding:32px 0;border-top:1px solid var(--line)}
+.kxh .plist li:last-child{border-bottom:1px solid var(--line)}
+.kxh .plist li::before{content:counter(p,decimal-leading-zero);font-size:44px;font-weight:500;letter-spacing:-.03em;line-height:1;color:transparent;-webkit-text-stroke:1.2px var(--red);grid-row:span 2}
+.kxh .plist b{font-size:clamp(20px,2vw,26px);font-weight:500;color:var(--ink);line-height:1.25;letter-spacing:-.01em}
+.kxh .plist span{font-size:16px}
+.kxh .calc-sec{margin:0 12px;border-radius:var(--r-xl);background:var(--bg2)}
+.kxh .calc{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:16px;margin-top:48px}
+.kxh .c-in,.kxh .c-out{background:#fff;border-radius:var(--r-lg);padding:32px;display:flex;flex-direction:column;gap:20px;min-width:0}
+.kxh .c-out{background:var(--bg3);color:var(--txt)}
+.kxh .c-in h3,.kxh .c-out h3{font-size:20px}
+.kxh .grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.kxh .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.kxh .fld{display:flex;flex-direction:column;gap:6px;min-width:0}
+.kxh .fld label{font-size:14px;font-weight:500}
+.kxh .fld .hint{font-size:13px;color:var(--muted)}
+.kxh .inp{display:flex;border-radius:var(--r-sm);background:var(--bg2);border:1px solid transparent;transition:border-color .2s,background .2s}
+.kxh .inp:focus-within{border-color:var(--ink);background:#fff}
+.kxh .inp.bad{border-color:var(--red)}
+.kxh .inp input,.kxh .inp select{flex:1;min-width:0;width:100%;border:0;background:none;font:500 16px Inter;color:var(--ink);padding:12px 14px;min-height:48px;outline:none}
+.kxh .inp span{padding:0 14px;color:var(--muted);font-size:14px;align-self:center;white-space:nowrap}
+.kxh .seg{display:flex;padding:4px;border-radius:var(--pill);background:var(--bg2);gap:4px}
+.kxh .seg button{flex:1;font:500 15px Inter;min-height:44px;border:0;border-radius:var(--pill);background:none;color:var(--txt);cursor:pointer;transition:background .2s,color .2s}
+.kxh .seg button[aria-pressed=true]{background:#fff;color:var(--ink);font-weight:600;box-shadow:0 0 0 1px rgba(21,18,38,.08)}
+.kxh details.assume{border-radius:var(--r-md);background:#FFFCEB;padding:14px 18px}
+.kxh details.assume summary{cursor:pointer;font-size:14px;font-weight:600;color:#5C4A00;min-height:32px;display:flex;align-items:center;gap:8px}
+.kxh details.assume .grid2{margin-top:12px}
+.kxh details.assume .inp{background:#fff}
+.kxh .formula{font-size:13px;color:var(--muted);margin:0}
+.kxh details.assume .formula{margin-top:12px}
+.kxh .bars{display:flex;flex-direction:column;gap:10px}
+.kxh .bar{display:grid;grid-template-columns:64px 1fr auto;align-items:center;gap:14px;font-size:14px}
+.kxh .bar .t{color:var(--muted)}
+.kxh .bar .track{height:14px;border-radius:var(--pill);background:rgba(21,18,38,.06);overflow:hidden}
+.kxh .bar .fill{height:100%;border-radius:var(--pill);background:rgba(21,18,38,.18);width:0;transition:width .9s var(--ease)}
+.kxh .bar.now .fill{background:rgba(21,18,38,.28)}
+.kxh .bar.sc .fill{background:rgba(233,54,53,.72)}
+.kxh .bar .bv{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.kxh .bar .bv em{font-style:normal;color:var(--red-t);font-weight:500;margin-left:6px}
+.kxh .caveat{font-size:14px;line-height:1.5;margin:0;color:var(--ink);padding-left:14px;border-left:2px solid var(--red)}
+/* wynik: oszczędność jako główna liczba */
+.kxh .save{background:#fff;border-radius:20px;padding:24px 24px 20px;display:flex;flex-direction:column;gap:14px;border:1px solid rgba(233,54,53,.18)}
+.kxh .save .lab{font-size:13px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--red-t)}
+.kxh .save .lab span{text-transform:none;letter-spacing:0}
+.kxh .save .hv{font-size:clamp(48px,5.4vw,76px);font-weight:500;letter-spacing:-.045em;line-height:1;color:var(--red);font-variant-numeric:tabular-nums}
+.kxh .save .hv small{font-size:22px;letter-spacing:0;color:var(--red-t);margin-left:6px;font-weight:500}
+.kxh .save .sub{font-size:15px;color:var(--ink);margin:0}
+.kxh .save .sub b{font-weight:600}
+.kxh .save .eq{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.kxh .save .eq div{background:var(--pink);border-radius:12px;padding:10px 12px;font-size:12px;color:var(--muted);line-height:1.35}
+.kxh .save .eq b{display:block;font-size:18px;font-weight:600;color:var(--ink);letter-spacing:-.01em;white-space:nowrap}
+.kxh .save .pick{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--muted)}
+.kxh .save .pick a{padding:6px 12px;border-radius:999px;background:var(--bg2);color:var(--ink);text-decoration:none;font-weight:500;font-size:13px;cursor:pointer}
+.kxh .save .pick a.on{background:var(--ink);color:#fff}
+.kxh .save .proof-l{font-size:13px;color:var(--muted);margin:0}
+.kxh .save .ask{font-size:14px;color:var(--ink);margin:0;background:var(--pink);border-radius:12px;padding:12px 14px}
+.kxh .now-row{font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 18px}
+.kxh .now-row b{color:var(--ink);font-weight:600}
+.kxh .proof{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:64px;align-items:center}
+.kxh .mega{font-size:clamp(96px,13vw,200px);font-weight:500;letter-spacing:-.06em;line-height:.9;color:var(--ink)}
+.kxh .mega em{font-style:normal;color:var(--red)}
+.kxh .vids{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.kxh .vids figure{margin:0}
+.kxh .vids figure:nth-child(2){margin-top:72px}
+.kxh .vids video{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:var(--r-lg);background:var(--bg3)}
+.kxh .vids figcaption{font-size:14px;color:var(--muted);margin-top:10px}
+.kxh .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-top:56px}
+.kxh .stat b{display:block;font-size:clamp(44px,5vw,72px);font-weight:500;letter-spacing:-.04em;color:var(--ink);line-height:1}
+.kxh .stat span{display:block;margin-top:10px;font-size:15px;color:var(--muted);max-width:22ch}
+.kxh .pills{display:flex;flex-wrap:wrap;gap:8px;margin-top:48px}
+.kxh .pills span{padding:10px 18px;border-radius:var(--pill);background:var(--bg2);font-size:14px;font-weight:500;color:var(--ink)}
+.kxh .timeline{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;margin-top:56px;position:relative}
+.kxh .timeline::before{content:"";position:absolute;left:12px;right:12px;top:11px;height:2px;background:var(--line)}
+.kxh .tl{position:relative;padding-top:44px}
+.kxh .tl::before{content:"";position:absolute;top:0;left:0;width:24px;height:24px;border-radius:50%;background:#fff;border:2px solid var(--line)}
+.kxh .tl:first-child::before{border-color:var(--red);background:var(--red);box-shadow:0 0 0 6px rgba(233,54,53,.14)}
+.kxh .tl small{font-size:13px;font-weight:600;color:var(--red-t);letter-spacing:.06em}
+.kxh .tl b{display:block;font-size:22px;font-weight:500;color:var(--ink);margin:6px 0 8px;letter-spacing:-.01em}
+.kxh .tl span{font-size:15px}
+.kxh .vgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:48px}
+.kxh .v{border-radius:var(--r-lg);background:var(--bg2);padding:32px;transition:background .25s}
+.kxh .v:hover{background:var(--bg3)}
+.kxh .v i{font-style:normal;display:inline-flex;font:600 11px Inter;letter-spacing:.08em;color:var(--red-t);background:var(--pink);padding:5px 10px;border-radius:var(--pill)}
+.kxh .v b{display:block;font-size:24px;font-weight:500;color:var(--ink);margin:16px 0 8px;letter-spacing:-.01em}
+.kxh .v span{font-size:16px}
+.kxh .marquee{overflow:hidden;margin-top:56px;-webkit-mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent);mask-image:linear-gradient(90deg,transparent,#000 10%,#000 90%,transparent)}
+.kxh .marquee .track{display:flex;gap:12px;width:max-content;animation:mq 28s linear infinite}
+.kxh .marquee span{padding:14px 26px;border-radius:var(--pill);border:1px solid var(--line);font-size:18px;font-weight:500;color:var(--ink);white-space:nowrap}
+@keyframes mq{to{transform:translateX(-50%)}}
+@media (prefers-reduced-motion:reduce){.kxh .marquee .track{animation:none;flex-wrap:wrap;width:auto}}
+.kxh .spec{font-size:15px;margin:24px 0 0;color:var(--muted)}
+.kxh .faq{max-width:920px}
+.kxh .faq details{border-radius:var(--r-md);background:var(--bg2);margin-top:10px;transition:background .2s}
+.kxh .faq details[open]{background:var(--bg3)}
+.kxh .faq summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 24px;min-height:64px;font-weight:500;color:var(--ink);font-size:17px}
+.kxh .faq summary::-webkit-details-marker{display:none}
+.kxh .faq summary::after{content:"+";flex:0 0 32px;height:32px;display:grid;place-items:center;border-radius:50%;background:#fff;font-size:20px;transition:transform .3s var(--ease)}
+.kxh .faq details[open] summary::after{transform:rotate(45deg)}
+.kxh .faq details p{margin:0;padding:0 24px 22px;font-size:16px}
+.kxh .book-sec{margin:0 12px 12px;border-radius:var(--r-xl);background:var(--pink)}
+/* tło sekcji rozmowy: rozmyte zdjęcie hali produkcyjnej pod różową warstwą */
+.kxh .book-sec{position:relative;overflow:hidden;isolation:isolate}
+.kxh .book-sec::before{content:"";position:absolute;inset:-30px;z-index:-2;background:url(https://kablonex.pl/wp-content/uploads/2026/09/kablonex-hala-produkcyjna-linie.webp) center 40%/cover no-repeat;filter:blur(5px) saturate(.75);opacity:.7}
+.kxh .book-sec::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(253,242,242,.78) 0%,rgba(253,242,242,.5) 55%,rgba(253,242,242,.38) 100%)}
+.kxh .book{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:16px;margin-top:48px}
+.kxh .box{border-radius:var(--r-lg);padding:32px;background:rgba(255,255,255,.55);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px)}
+.kxh .box h3{font-size:22px;color:var(--ink);margin-bottom:10px}
+.kxh .box.form{background:#fff;color:var(--txt)}
+.kxh .box.form h3{color:var(--ink)}
+.kxh .form{display:flex;flex-direction:column;gap:12px}
+.kxh .form .sla{font-size:15px;margin:-6px 0 4px}
+.kxh .attach{font-size:14px;background:var(--bg2);border-radius:var(--r-sm);padding:14px 16px}
+.kxh .attach b{color:var(--ink)}
+.kxh .need{border-radius:var(--r-sm);padding:14px 16px;background:var(--bg2);display:flex;flex-direction:column;gap:12px}
+.kxh .need p{margin:0;font-size:15px}
+.kxh .need .inp{background:#fff}
+.kxh .rodo{display:flex;align-items:center;gap:12px;min-height:48px;font-size:14px;color:var(--muted);cursor:pointer}
+.kxh .rodo input{width:22px;height:22px;flex:0 0 22px;accent-color:var(--ink)}
+.kxh .req{color:var(--red-t)}
+.kxh .sticky{display:none}
+@media (max-width:900px){.kxh section{padding:72px 0}
+.kxh .wrap{padding:0 20px}
+.kxh .hero-out{padding:8px 8px 0}
+.kxh .hero{min-height:0;border-radius:var(--r-lg);background-image:url(https://kablonex.pl/wp-content/uploads/2026/10/huta-szkla-cold-end-paleta-960.webp);background-position:88% 50%}
+.kxh .hero::before{background:rgba(21,18,38,.42)}
+.kxh .hero .wrap{padding-top:88px;padding-bottom:28px}
+.kxh .hero .crumb{left:20px;top:20px}
+.kxh .hero{flex-direction:column;align-items:stretch;justify-content:flex-end}
+.kxh .hero-side{position:relative;right:auto;bottom:auto;width:auto;margin:0 20px 20px}
+.kxh .chip{padding:16px 18px}
+.kxh .chip b{font-size:32px}
+.kxh .hero h1{font-size:40px}
+.kxh .hero p{font-size:18px;margin:20px 0 28px}
+.kxh .eyebrow{font-size:12px;letter-spacing:.06em}
+.kxh .save{padding:20px 18px}
+.kxh .save .eq{grid-template-columns:minmax(0,1fr)}
+.kxh .save .eq b{display:inline;margin-right:6px}
+.kxh .stat b{font-size:40px}
+.kxh .mega{font-size:112px}
+.kxh .btns .btn{width:100%;justify-content:center}
+.kxh .split,.kxh .proof,.kxh .book,.kxh .calc{grid-template-columns:minmax(0,1fr);gap:32px}
+.kxh .sticky-col{position:static}
+.kxh .plist li{grid-template-columns:52px 1fr;padding:24px 0}
+.kxh .plist li::before{font-size:32px}
+.kxh .calc-sec,.kxh .book-sec{margin-left:8px;margin-right:8px;border-radius:var(--r-lg)}
+.kxh .c-in,.kxh .c-out,.kxh .box{padding:22px}
+.kxh .stats{grid-template-columns:repeat(2,minmax(0,1fr));gap:32px 16px}
+.kxh .timeline{grid-template-columns:minmax(0,1fr);gap:0}
+.kxh .timeline::before{left:11px;right:auto;top:12px;bottom:12px;width:2px;height:auto}
+.kxh .tl{padding:0 0 28px 48px}
+.kxh .vgrid{grid-template-columns:minmax(0,1fr)}
+.kxh .vids figure:nth-child(2){margin-top:40px}
+.kxh .fld label{font-size:15px}
+.kxh .form .grid2,.kxh .need .grid2{grid-template-columns:minmax(0,1fr)}
+.kxh .sticky{display:flex;position:fixed;left:12px;right:12px;bottom:12px;z-index:50;transform:translateY(140%);transition:transform .3s var(--ease)}
+.kxh .sticky.on{transform:none}
+.kxh .sticky .btn{flex:1;justify-content:center;box-shadow:0 0 0 1px rgba(255,255,255,.2)}
+.kxh{padding-bottom:80px}}
+@media (max-width:420px){.kxh .grid3{grid-template-columns:repeat(2,minmax(0,1fr))}
+.kxh .grid3 .fld:last-child{grid-column:1/-1}}
+.kxh{display:block;width:100%;background:#fff}
+.kxh .kxh-preview{background:#F7F9FC;font-size:14px;color:#3D4657;text-align:center;padding:10px 16px}
+.kxh .kxh-note{font-size:14px;color:#3D4657;background:#F7F9FC;border-radius:12px;padding:12px 16px;margin:0}
+.kxh .kxh-note[hidden]{display:none}
+.kxh .kxh-note.ok{background:#EEF7F1;color:#1E5631}
+.kxh .kxh-note.err{background:var(--pink);color:var(--red-t)}
+.kxh .rodo a{color:var(--red-t)}
+.kxh .wrap{max-width:1384px}
+/* wzorzec 373 w karcie hero */
+.kxh .certs-slot .wp-block-kadence-column,.kxh .certs-slot .kt-inside-inner-col{width:100%;max-width:none;margin:0;padding:0}
+.kxh .certs-slot .swiper-slide{display:flex;align-items:center;justify-content:center}
+.kxh .certs-slot img{max-height:48px;width:auto;object-fit:contain}
+/* motyw starter maluje każdy <button> na czerwono (16/32 px, radius 2): nadpisujemy w obrębie landingu */
+.kxh .seg button{background:transparent!important;color:var(--txt)!important;border:0!important;border-radius:999px!important;box-shadow:none!important;padding:0 12px!important;margin:0!important;font:500 15px Inter,sans-serif!important;line-height:1.2!important;text-transform:none!important;letter-spacing:0!important;min-height:44px}
+.kxh .seg button[aria-pressed=true]{background:#fff!important;color:var(--ink)!important;font-weight:600!important;box-shadow:0 0 0 1px rgba(21,18,38,.08)!important}
+.kxh button.btn{border-radius:999px!important;padding:16px 28px!important;font:600 16px Inter,sans-serif!important;line-height:1.2!important;text-transform:none!important;letter-spacing:0!important}
+.kxh button.btn-soft{background:rgba(21,18,38,.05)!important;color:var(--ink)!important;border:1px solid rgba(21,18,38,.12)!important}
+.kxh button.btn-soft:hover{background:rgba(21,18,38,.09)!important}
+.kxh button.btn-red{background:var(--red-a)!important;color:#fff!important;border:1px solid rgba(233,54,53,.3)!important}
+.kxh button.btn-red:hover{background:var(--red)!important}
+.kxh button.btn[disabled]{opacity:.6;cursor:wait}
+
+.kxh figure img{height:auto}

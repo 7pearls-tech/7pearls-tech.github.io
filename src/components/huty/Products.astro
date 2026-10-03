@@ -1,0 +1,27 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">NEX-SHRINK GP</p>
+      <h2>{t("Folie pod Wasz cold-end")}</h2>
+      <p class="lead">{t("Folię dobieramy pod konkretny system: otwieranie rękawa, temperaturę i czas obkurczu, wysokość palety i undershrink.")}</p>
+    </div>
+    <div class="vgrid">
+      <div class="v rv"><i>STANDARD</i><b>NEX-SHRINK GP</b><span>{t("Rękaw z zakładkami albo kaptur do palet szkła. Stabilna praca linii na obecnej grubości, kontrolowany obkurcz i zakotwienie pod płozami.")}</span></div>
+      <div class="v rv"><i>PREMIUM</i><b>{t("NEX-SHRINK GP pocieniony")}</b><span>{t("Najniższa zwalidowana masa folii na paletę: ze 130 do 90 µm, w wybranych dostawach 70 µm. Po próbie na linii i teście transportowym.")}</span></div>
+      <div class="v rv"><i>PCR</i><b>{t("Warianty z recyklatem")}</b><span>{t("Warianty 30-50%, docelowy udział po analizie maszyny, folii i próbie na linii. Surowce ISCC PLUS.")}</span></div>
+      <div class="v rv"><i>{t("DRUK")}</i><b>{t("Identyfikacja i branding")}</b><span>{t("Flexo do 10 kolorów we własnej drukarni NEX PRINT: logo huty, oznaczenia partii, komunikaty dla magazynu.")}</span></div>
+    </div>
+    <p class="spec rv">{t("Wspólne: szerokość rękawa do 2600 mm, 3 albo 5 warstw, gilzy 76 i 152 mm, dodatki UV, seria od 500 kg na indeks.")} <a href={cfg.nexShrinkUrl}>{t("Pełna specyfikacja NEX-SHRINK")}</a></p>
+  </div>
+  <div class="marquee" aria-label={t("Maszyny, z którymi pracujemy")}>
+    <div class="track"><span>MSK</span><span>Thimon</span><span>Bocedi</span><span>OMS</span><span>{t("inne cold-endy z obkurczem gorącym powietrzem")}</span><span aria-hidden="true">MSK</span><span aria-hidden="true">Thimon</span><span aria-hidden="true">Bocedi</span><span aria-hidden="true">OMS</span><span aria-hidden="true">{t("inne cold-endy z obkurczem gorącym powietrzem")}</span></div>
+  </div>
+</section>

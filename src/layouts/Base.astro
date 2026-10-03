@@ -1,0 +1,71 @@
+---
+import { getAbsoluteLocaleUrl, getRelativeLocaleUrl } from 'astro:i18n';
+import { LANGS, type Lang } from '../i18n/t';
+import { config } from '../i18n/config';
+
+interface Props {
+  lang: Lang;
+  title: string;
+  description: string;
+  /** Oryginał na kablonex.pl: kopia na GitHub Pages nie konkuruje z nim w Google. */
+  canonical: string;
+  /** Ścieżka strony bez prefiksu języka, do linków hreflang. */
+  path: string;
+}
+
+const { lang, title, description, canonical, path } = Astro.props;
+---
+<!doctype html>
+<html lang={config[lang].htmlLang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="canonical" href={canonical} />
+    {LANGS.map((l) => <link rel="alternate" hreflang={l} href={getAbsoluteLocaleUrl(l, path)} />)}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="langs" aria-label="Language">
+      {LANGS.map((l) => (
+        <a href={getRelativeLocaleUrl(l, path)} aria-current={l === lang ? 'page' : undefined}>{l.toUpperCase()}</a>
+      ))}
+    </nav>
+    <slot />
+  </body>
+</html>
+
+<style is:global>
+  html, body { margin: 0; background: #fff; }
+</style>
+
+<style>
+  .langs {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 50;
+    display: flex;
+    gap: 4px;
+    padding: 4px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(12px);
+    font: 600 13px Inter, system-ui, sans-serif;
+  }
+  .langs a {
+    padding: 6px 10px;
+    border-radius: 999px;
+    color: #151226;
+    text-decoration: none;
+  }
+  .langs a[aria-current='page'] {
+    background: #151226;
+    color: #fff;
+  }
+</style>

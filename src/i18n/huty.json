@@ -1,0 +1,650 @@
+{
+  "text": {
+    "Ile folii zostawiacie na każdej palecie szkła?": {
+      "en": "How much film do you leave on every pallet of glass?",
+      "de": "Wie viel Folie steckt in jeder Glaspalette?"
+    },
+    "Policz masę i koszt rękawa termokurczliwego na paletę w 2 minuty. Wynik od razu, bez podawania maila.": {
+      "en": "Calculate the weight and cost of the shrink sleeve per pallet in 2 minutes. Instant result, no email required.",
+      "de": "Berechnen Sie Gewicht und Kosten des Schrumpfschlauchs pro Palette in 2 Minuten. Ergebnis sofort, ohne E-Mail-Angabe."
+    },
+    "Policz w 2 minuty": {
+      "en": "Calculate in 2 minutes",
+      "de": "In 2 Minuten berechnen"
+    },
+    "Umów 20 min z technologiem": {
+      "en": "Book 20 min with a technologist",
+      "de": "20 Min. mit einem Technologen vereinbaren"
+    },
+    "Wdrożenie w hucie szkła": {
+      "en": "Implementation at a glassworks",
+      "de": "Umsetzung in einer Glashütte"
+    },
+    "bez tłuczenia w transporcie · zobacz case →": {
+      "en": "no breakage in transport · see case →",
+      "de": "ohne Bruch im Transport · zur Fallstudie →"
+    },
+    "Certyfikaty": {
+      "en": "Certificates",
+      "de": "Zertifikate"
+    },
+    "55 lat": {
+      "en": "55 years",
+      "de": "55 Jahre"
+    },
+    "producent folii": {
+      "en": "film manufacturer",
+      "de": "Folienhersteller"
+    },
+    "ok. 25 000 t": {
+      "en": "approx. 25,000 t",
+      "de": "ca. 25.000 t"
+    },
+    "folii rocznie": {
+      "en": "of film per year",
+      "de": "Folie pro Jahr"
+    },
+    "18 linii": {
+      "en": "18 lines",
+      "de": "18 Linien"
+    },
+    "ekstruzji, 3 i 5 warstw": {
+      "en": "extrusion, 3 and 5 layers",
+      "de": "Extrusion, 3 und 5 Schichten"
+    },
+    "do 10 kolorów": {
+      "en": "up to 10 colours",
+      "de": "bis zu 10 Farben"
+    },
+    "flexo we własnej drukarni": {
+      "en": "flexo in our own print shop",
+      "de": "Flexodruck in eigener Druckerei"
+    },
+    "Cold-end": {
+      "en": "Cold end",
+      "de": "Kaltes Ende"
+    },
+    "Pięć rzeczy, które słyszymy na cold-endzie": {
+      "en": "Five things we hear at the cold end",
+      "de": "Fünf Sätze, die wir am kalten Ende hören"
+    },
+    "Paleta szkła to kilkaset kilogramów kruchego ładunku. Koszt folii widać na fakturze, koszt złej folii widać w reklamacjach.": {
+      "en": "A pallet of glass is several hundred kilograms of fragile load. You see the cost of film on the invoice, and the cost of bad film in complaints.",
+      "de": "Eine Glaspalette sind mehrere hundert Kilogramm zerbrechliche Ladung. Die Kosten der Folie sieht man auf der Rechnung, die Kosten schlechter Folie in den Reklamationen."
+    },
+    "„Płacimy za kilogram, a liczymy palety.”": {
+      "en": "“We pay by the kilogram, but we count pallets.”",
+      "de": "„Wir zahlen pro Kilogramm, aber wir zählen Paletten.“"
+    },
+    "Folia grubsza „na wszelki wypadek” to najdroższy margines bezpieczeństwa w hucie. Każde 10 µm mniej to gramy na każdej palecie, razy cały rok produkcji.": {
+      "en": "Film that is thicker “just in case” is the most expensive safety margin in a glassworks. Every 10 µm less means grams on every pallet, multiplied by a whole year of production.",
+      "de": "Folie, die „sicherheitshalber“ dicker ist, ist die teuerste Sicherheitsmarge in der Glashütte. Jede 10 µm weniger bedeuten Gramm auf jeder Palette, mal ein ganzes Produktionsjahr."
+    },
+    "„Dziura w kapturze to nie defekt folii, to przepakowanie palety.”": {
+      "en": "“A hole in the hood is not a film defect, it is a pallet that has to be repacked.”",
+      "de": "„Ein Loch in der Haube ist kein Foliendefekt, sondern eine Palette, die neu verpackt werden muss.“"
+    },
+    "Ostre krawędzie przekładek i naroża warstw przebijają folię o zbyt małej odporności na przebicie. Odporność buduje receptura i struktura, nie same mikrony.": {
+      "en": "Sharp edges of layer pads and layer corners pierce film with too little puncture resistance. Resistance comes from the formulation and structure, not from microns alone.",
+      "de": "Scharfe Kanten von Zwischenlagen und Lagenecken durchstoßen Folie mit zu geringer Durchstoßfestigkeit. Festigkeit entsteht durch Rezeptur und Struktur, nicht allein durch Mikrometer."
+    },
+    "„Paleta wyjeżdża idealna, dojeżdża luźna.”": {
+      "en": "“The pallet leaves perfect and arrives loose.”",
+      "de": "„Die Palette verlässt das Werk perfekt und kommt locker an.“"
+    },
+    "Eksport i plac pod chmurką testują siłę obkurczu, nie mikrony. Luz po wychłodzeniu i brak zakotwienia pod płozami kończą się tłuczeniem u klienta.": {
+      "en": "Export routes and outdoor yards test shrink force, not microns. Slack after cooling and no anchoring under the pallet end in breakage at your customer.",
+      "de": "Exportwege und Lagerung im Freien testen die Schrumpfkraft, nicht die Mikrometer. Spiel nach dem Abkühlen und fehlende Verankerung unter der Palette enden mit Bruch beim Kunden."
+    },
+    "„Cel recyklatu jest w raporcie ESG, a na palecie wciąż virgin.”": {
+      "en": "“The recycled content target is in the ESG report, but the pallet is still wrapped in virgin film.”",
+      "de": "„Das Rezyklatziel steht im ESG-Bericht, aber auf der Palette ist noch Neuware.“"
+    },
+    "Warianty z 30-50% PCR, docelowy udział po analizie maszyny, folii i próbie na linii.": {
+      "en": "Variants with 30-50% PCR, with the final share set after analysing the machine, the film and a line trial.",
+      "de": "Varianten mit 30-50 % PCR, der endgültige Anteil nach Analyse von Maschine, Folie und einem Linienversuch."
+    },
+    "„Nowa wanna, nowy cold-end, stara specyfikacja folii.”": {
+      "en": "“New furnace, new cold end, old film specification.”",
+      "de": "„Neue Wanne, neues kaltes Ende, alte Folienspezifikation.“"
+    },
+    "Remont wanny albo nowa maszyna to najlepszy moment, żeby sprawdzić specyfikację folii, bo próba nie wchodzi wtedy w bieżący plan produkcji.": {
+      "en": "A furnace rebuild or a new machine is the best time to review the film specification, because the trial does not interfere with the current production plan.",
+      "de": "Ein Wannenumbau oder eine neue Maschine ist der beste Zeitpunkt, die Folienspezifikation zu prüfen, weil der Versuch dann nicht in den laufenden Produktionsplan eingreift."
+    },
+    "Kalkulator": {
+      "en": "Calculator",
+      "de": "Rechner"
+    },
+    "Ile folii na Waszą paletę?": {
+      "en": "How much film does your pallet need?",
+      "de": "Wie viel Folie braucht Ihre Palette?"
+    },
+    "Wpiszcie wymiary palety, obecną grubość rękawa i liczbę palet rocznie. Policzymy kilogramy dziś i scenariusze 90, 80 i 70 µm.": {
+      "en": "Enter the pallet dimensions, your current sleeve thickness and the number of pallets per year. We calculate the kilograms today and scenarios at 90, 80 and 70 µm.",
+      "de": "Geben Sie Palettenmaße, aktuelle Schlauchdicke und Paletten pro Jahr ein. Wir berechnen die Kilogramm heute und Szenarien mit 90, 80 und 70 µm."
+    },
+    "Wasza paleta": {
+      "en": "Your pallet",
+      "de": "Ihre Palette"
+    },
+    "Długość": {
+      "en": "Length",
+      "de": "Länge"
+    },
+    "Szerokość": {
+      "en": "Width",
+      "de": "Breite"
+    },
+    "Wysokość ładunku": {
+      "en": "Load height",
+      "de": "Ladungshöhe"
+    },
+    "Typ rękawa": {
+      "en": "Sleeve type",
+      "de": "Schlauchtyp"
+    },
+    "Z zakładkami": {
+      "en": "Gusseted",
+      "de": "Mit Seitenfalten"
+    },
+    "Bez zakładek": {
+      "en": "Flat",
+      "de": "Ohne Seitenfalten"
+    },
+    "Obecna grubość": {
+      "en": "Current thickness",
+      "de": "Aktuelle Dicke"
+    },
+    "Palet rocznie": {
+      "en": "Pallets per year",
+      "de": "Paletten pro Jahr"
+    },
+    "szt.": {
+      "en": "pcs",
+      "de": "Stk."
+    },
+    "Cena folii za kg (opcjonalnie)": {
+      "en": "Film price per kg (optional)",
+      "de": "Folienpreis pro kg (optional)"
+    },
+    "Wasza cena. Nie publikujemy cen Kablonex.": {
+      "en": "Your own price. We do not publish Kablonex prices.",
+      "de": "Ihr eigener Preis. Wir veröffentlichen keine Kablonex-Preise."
+    },
+    "Udział PCR (opcjonalnie)": {
+      "en": "PCR share (optional)",
+      "de": "PCR-Anteil (optional)"
+    },
+    "Założenia orientacyjne: technolog dopasuje je do Waszej linii (możecie je zmienić)": {
+      "en": "Indicative assumptions: a technologist will adjust them to your line (you can change them)",
+      "de": "Richtwerte: ein Technologe passt sie an Ihre Linie an (Sie können sie ändern)"
+    },
+    "Naddatek góry": {
+      "en": "Top allowance",
+      "de": "Zugabe oben"
+    },
+    "Undershrink pod płozami": {
+      "en": "Undershrink under the pallet",
+      "de": "Unterschrumpf unter der Palette"
+    },
+    "Naddatek na obkurcz": {
+      "en": "Shrink allowance",
+      "de": "Schrumpfzugabe"
+    },
+    "Dodatek: bez zakładek": {
+      "en": "Extra for flat sleeves",
+      "de": "Zuschlag ohne Seitenfalten"
+    },
+    "Gęstość NEX-SHRINK GP": {
+      "en": "NEX-SHRINK GP density",
+      "de": "Dichte NEX-SHRINK GP"
+    },
+    "Powierzchnia rękawa = (obwód palety × (wysokość + naddatek góry + undershrink) + długość × szerokość) × (1 + naddatek na obkurcz). Masa = powierzchnia × grubość × gęstość.": {
+      "en": "Sleeve area = (pallet perimeter × (height + top allowance + undershrink) + length × width) × (1 + shrink allowance). Weight = area × thickness × density.",
+      "de": "Schlauchfläche = (Palettenumfang × (Höhe + Zugabe oben + Unterschrumpf) + Länge × Breite) × (1 + Schrumpfzugabe). Masse = Fläche × Dicke × Dichte."
+    },
+    "Dowód z wdrożenia": {
+      "en": "Proof from an implementation",
+      "de": "Nachweis aus der Praxis"
+    },
+    "folii na każdej palecie po zejściu ze 130 do 90 µm w hucie szkła. W części dostaw 70 µm, bez utraty stabilności palety w weekendowym transporcie.": {
+      "en": "film on every pallet after going from 130 to 90 µm at a glassworks. Some deliveries at 70 µm, with no loss of pallet stability in weekend transport.",
+      "de": "Folie auf jeder Palette nach dem Wechsel von 130 auf 90 µm in einer Glashütte. Ein Teil der Lieferungen mit 70 µm, ohne Verlust an Palettenstabilität im Wochenendtransport."
+    },
+    "Zobacz case study": {
+      "en": "See the case study",
+      "de": "Zur Fallstudie"
+    },
+    "Nakładanie rękawa i obkurcz na cold-endzie.": {
+      "en": "Applying the sleeve and shrinking at the cold end.",
+      "de": "Aufziehen des Schlauchs und Schrumpfen am kalten Ende."
+    },
+    "Paleta po obkurczu, folia zakotwiczona pod płozami.": {
+      "en": "Pallet after shrinking, film anchored under the pallet.",
+      "de": "Palette nach dem Schrumpfen, Folie unter der Palette verankert."
+    },
+    "Dlaczego Kablonex": {
+      "en": "Why Kablonex",
+      "de": "Warum Kablonex"
+    },
+    "Producent folii, nie pośrednik": {
+      "en": "A film manufacturer, not a trader",
+      "de": "Folienhersteller, kein Zwischenhändler"
+    },
+    "Kaptury paletowe robimy od lat 2000. Z tego wyrosła rodzina NEX-SHRINK. Ekstruzja, druk i recykling są pod jednym dachem, więc nie czekacie na nikogo po drodze.": {
+      "en": "We have been making pallet hoods since the 2000s, and that is where the NEX-SHRINK family comes from. Extrusion, printing and recycling are under one roof, so you are not waiting on anyone along the way.",
+      "de": "Palettenhauben fertigen wir seit den 2000er Jahren, daraus ist die NEX-SHRINK Familie entstanden. Extrusion, Druck und Recycling sind unter einem Dach, Sie warten also auf niemanden unterwegs."
+    },
+    "odpowiedź technologa w dni robocze": {
+      "en": "technologist reply on working days",
+      "de": "Antwort des Technologen an Werktagen"
+    },
+    "dni na rolki próbne pod Waszą maszynę": {
+      "en": "days for trial rolls for your machine",
+      "de": "Tage für Musterrollen für Ihre Maschine"
+    },
+    "dni na dostawę w trybie express": {
+      "en": "days for express delivery",
+      "de": "Tage für Expresslieferung"
+    },
+    "seria minimalna na indeks": {
+      "en": "minimum run per item",
+      "de": "Mindestmenge pro Artikel"
+    },
+    "Współpraca": {
+      "en": "How we work",
+      "de": "Zusammenarbeit"
+    },
+    "Od kalkulatora do wdrożenia": {
+      "en": "From calculator to implementation",
+      "de": "Vom Rechner zur Umsetzung"
+    },
+    "01 · 2 MIN": {
+      "en": "01 · 2 MIN",
+      "de": "01 · 2 MIN."
+    },
+    "Liczycie masę folii na paletę i scenariusze grubości.": {
+      "en": "You calculate the film weight per pallet and thickness scenarios.",
+      "de": "Sie berechnen das Foliengewicht pro Palette und Dickenszenarien."
+    },
+    "02 · 20 MIN": {
+      "en": "02 · 20 MIN",
+      "de": "02 · 20 MIN."
+    },
+    "Rozmowa z technologiem": {
+      "en": "Call with a technologist",
+      "de": "Gespräch mit einem Technologen"
+    },
+    "Maszyna, formaty palet, trasy i obecna folia.": {
+      "en": "Machine, pallet formats, routes and current film.",
+      "de": "Maschine, Palettenformate, Transportwege und aktuelle Folie."
+    },
+    "03 · 5-10 DNI": {
+      "en": "03 · 5-10 DAYS",
+      "de": "03 · 5-10 TAGE"
+    },
+    "Próba na linii": {
+      "en": "Line trial",
+      "de": "Linienversuch"
+    },
+    "Rolki próbne pod Waszą maszynę. Test na linii i na trasie, nie w laboratorium.": {
+      "en": "Trial rolls for your machine. Tested on the line and on the road, not in a lab.",
+      "de": "Musterrollen für Ihre Maschine. Test auf der Linie und auf der Strecke, nicht im Labor."
+    },
+    "04 · 3-4 TYG.": {
+      "en": "04 · 3-4 WEEKS",
+      "de": "04 · 3-4 WOCHEN"
+    },
+    "Wdrożenie": {
+      "en": "Implementation",
+      "de": "Umsetzung"
+    },
+    "Harmonogram dostaw pod plan produkcji, express 7-10 dni.": {
+      "en": "Delivery schedule matched to your production plan, express in 7-10 days.",
+      "de": "Lieferplan passend zu Ihrem Produktionsplan, Express in 7-10 Tagen."
+    },
+    "Folie pod Wasz cold-end": {
+      "en": "Films for your cold end",
+      "de": "Folien für Ihr kaltes Ende"
+    },
+    "Folię dobieramy pod konkretny system: otwieranie rękawa, temperaturę i czas obkurczu, wysokość palety i undershrink.": {
+      "en": "We match the film to your specific system: sleeve opening, shrink temperature and time, pallet height and undershrink.",
+      "de": "Wir stimmen die Folie auf Ihr System ab: Öffnen des Schlauchs, Schrumpftemperatur und -zeit, Palettenhöhe und Unterschrumpf."
+    },
+    "Rękaw z zakładkami albo kaptur do palet szkła. Stabilna praca linii na obecnej grubości, kontrolowany obkurcz i zakotwienie pod płozami.": {
+      "en": "Gusseted sleeve or hood for glass pallets. Stable line operation at your current thickness, controlled shrink and anchoring under the pallet.",
+      "de": "Seitenfaltenschlauch oder Haube für Glaspaletten. Stabiler Linienlauf bei aktueller Dicke, kontrollierter Schrumpf und Verankerung unter der Palette."
+    },
+    "NEX-SHRINK GP pocieniony": {
+      "en": "NEX-SHRINK GP downgauged",
+      "de": "NEX-SHRINK GP dünner"
+    },
+    "Najniższa zwalidowana masa folii na paletę: ze 130 do 90 µm, w wybranych dostawach 70 µm. Po próbie na linii i teście transportowym.": {
+      "en": "The lowest validated film weight per pallet: from 130 to 90 µm, 70 µm in selected deliveries. After a line trial and a transport test.",
+      "de": "Das niedrigste validierte Foliengewicht pro Palette: von 130 auf 90 µm, in ausgewählten Lieferungen 70 µm. Nach Linienversuch und Transporttest."
+    },
+    "Warianty z recyklatem": {
+      "en": "Variants with recycled content",
+      "de": "Varianten mit Rezyklat"
+    },
+    "Warianty 30-50%, docelowy udział po analizie maszyny, folii i próbie na linii. Surowce ISCC PLUS.": {
+      "en": "30-50% variants, with the final share set after analysing the machine, the film and a line trial. ISCC PLUS raw materials.",
+      "de": "Varianten mit 30-50 %, endgültiger Anteil nach Analyse von Maschine, Folie und Linienversuch. Rohstoffe nach ISCC PLUS."
+    },
+    "DRUK": {
+      "en": "PRINT",
+      "de": "DRUCK"
+    },
+    "Identyfikacja i branding": {
+      "en": "Identification and branding",
+      "de": "Kennzeichnung und Branding"
+    },
+    "Flexo do 10 kolorów we własnej drukarni NEX PRINT: logo huty, oznaczenia partii, komunikaty dla magazynu.": {
+      "en": "Flexo printing in up to 10 colours in our own NEX PRINT print shop: your glassworks logo, batch marking, warehouse instructions.",
+      "de": "Flexodruck in bis zu 10 Farben in unserer eigenen Druckerei NEX PRINT: Logo der Glashütte, Chargenkennzeichnung, Hinweise für das Lager."
+    },
+    "Wspólne: szerokość rękawa do 2600 mm, 3 albo 5 warstw, gilzy 76 i 152 mm, dodatki UV, seria od 500 kg na indeks.": {
+      "en": "Common to all: sleeve width up to 2600 mm, 3 or 5 layers, 76 and 152 mm cores, UV additives, runs from 500 kg per item.",
+      "de": "Für alle gilt: Schlauchbreite bis 2600 mm, 3 oder 5 Schichten, Hülsen 76 und 152 mm, UV-Additive, Mengen ab 500 kg pro Artikel."
+    },
+    "Pełna specyfikacja NEX-SHRINK": {
+      "en": "Full NEX-SHRINK specification",
+      "de": "Vollständige NEX-SHRINK Spezifikation"
+    },
+    "inne cold-endy z obkurczem gorącym powietrzem": {
+      "en": "other cold ends with hot-air shrinking",
+      "de": "andere kalte Enden mit Heißluftschrumpfung"
+    },
+    "Pytania technologów z hut": {
+      "en": "Questions from glassworks technologists",
+      "de": "Fragen von Technologen aus Glashütten"
+    },
+    "Czy zmiana folii wymaga przestawienia maszyny nakładającej rękaw i obkurczu?": {
+      "en": "Does changing the film mean resetting the sleeve applicator and the shrink tunnel?",
+      "de": "Muss für eine neue Folie die Schlauchaufziehmaschine oder der Schrumpfofen umgestellt werden?"
+    },
+    "Nie, jeśli folia jest skalibrowana pod Twój system: sposób otwierania rękawa, temperaturę i czas obkurczu. Zaczynamy od modelu maszyny i obecnych ustawień, a nowa receptura ma pracować w tym samym oknie procesowym. Zmiany ustawień, jeśli w ogóle, ustalamy na próbie.": {
+      "en": "No, as long as the film is calibrated to your system: how the sleeve opens, shrink temperature and time. We start from your machine model and current settings, and the new formulation has to work in the same process window. Any setting changes, if needed at all, are agreed during the trial.",
+      "de": "Nein, wenn die Folie auf Ihr System abgestimmt ist: Öffnen des Schlauchs, Schrumpftemperatur und -zeit. Wir beginnen mit dem Maschinenmodell und den aktuellen Einstellungen, und die neue Rezeptur muss im selben Prozessfenster laufen. Änderungen der Einstellungen, falls überhaupt nötig, legen wir im Versuch fest."
+    },
+    "Jak cienko można zejść na palecie szkła?": {
+      "en": "How thin can you go on a glass pallet?",
+      "de": "Wie dünn kann die Folie auf einer Glaspalette werden?"
+    },
+    "We wdrożeniu w hucie szkła zeszliśmy ze 130 do 90 µm, a w części dostaw do 70 µm, bez utraty stabilności palety w weekendowym transporcie. Granicę wyznacza Twój format palety, wysokość, trasa i to, czy linia robi undershrink, dlatego pocienienie zawsze poprzedza próba na linii i test transportowy.": {
+      "en": "At one glassworks we went from 130 to 90 µm, and to 70 µm in some deliveries, with no loss of pallet stability in weekend transport. The limit depends on your pallet format, height, route and whether your line does undershrink, which is why downgauging is always preceded by a line trial and a transport test.",
+      "de": "In einer Glashütte sind wir von 130 auf 90 µm gegangen, in einem Teil der Lieferungen auf 70 µm, ohne Verlust an Palettenstabilität im Wochenendtransport. Die Grenze bestimmen Ihr Palettenformat, die Höhe, der Transportweg und ob Ihre Linie unterschrumpft. Deshalb geht jeder Dickenreduzierung ein Linienversuch und ein Transporttest voraus."
+    },
+    "Czy folia zakotwiczy się pod płozami palety (undershrink)?": {
+      "en": "Will the film anchor under the pallet (undershrink)?",
+      "de": "Verankert sich die Folie unter der Palette (Unterschrumpf)?"
+    },
+    "Tak, pod warunkiem właściwego naddatku rękawa i receptury o kontrolowanym obkurczu w obu kierunkach. Undershrink to element specyfikacji, o który pytamy na starcie, bo decyduje o długości rękawa i o tym, jak folia zachowa się przy hamowaniu naczepy.": {
+      "en": "Yes, provided the sleeve has the right allowance and a formulation with controlled shrink in both directions. Undershrink is part of the specification we ask about from the start, because it determines the sleeve length and how the film behaves when the trailer brakes.",
+      "de": "Ja, bei richtiger Schlauchzugabe und einer Rezeptur mit kontrolliertem Schrumpf in beide Richtungen. Der Unterschrumpf ist Teil der Spezifikation, nach dem wir von Anfang an fragen, weil er die Schlauchlänge bestimmt und wie sich die Folie beim Bremsen des Aufliegers verhält."
+    },
+    "Co z dziurami od przekładek i naroży warstw?": {
+      "en": "What about holes from layer pads and layer corners?",
+      "de": "Was ist mit Löchern durch Zwischenlagen und Lagenecken?"
+    },
+    "Odporność na przebicie budujemy recepturą i strukturą wielowarstwową, nie samą grubością. Dlatego folia 90 µm może być odporniejsza na przebicie niż standardowa 130 µm. Prosimy o trzy najczęstsze defekty z Waszych kodów jakościowych, bo od nich zaczynamy dobór.": {
+      "en": "We build puncture resistance through the formulation and a multilayer structure, not thickness alone. That is why a 90 µm film can be more puncture resistant than a standard 130 µm one. We ask for the three most frequent defects from your quality codes, because that is where the selection starts.",
+      "de": "Durchstoßfestigkeit erreichen wir durch Rezeptur und Mehrschichtstruktur, nicht allein durch Dicke. Deshalb kann eine 90-µm-Folie durchstoßfester sein als eine Standardfolie mit 130 µm. Wir fragen nach den drei häufigsten Fehlern aus Ihren Qualitätscodes, denn damit beginnt die Auswahl."
+    },
+    "Czy dostępne są warianty z PCR i jak je dokumentujecie?": {
+      "en": "Are PCR variants available and how do you document them?",
+      "de": "Gibt es PCR-Varianten und wie dokumentieren Sie diese?"
+    },
+    "Dla wybranych aplikacji rozwijamy warianty z 30-50% PCR. Docelowy udział potwierdzamy po analizie maszyny, obecnej folii, wymagań optycznych i próbie na linii. Rozróżniamy PCR od PIR, a udział recyklatu dokumentujemy w łańcuchu ISCC PLUS (mass balance). Nie deklarujemy „zgodności z PPWR” bez potwierdzenia kategorii opakowania i dokumentacji.": {
+      "en": "For selected applications we develop variants with 30-50% PCR. We confirm the final share after analysing the machine, your current film, optical requirements and a line trial. We distinguish PCR from PIR and document recycled content in the ISCC PLUS chain (mass balance). We do not claim “PPWR compliance” without confirming the packaging category and documentation.",
+      "de": "Für ausgewählte Anwendungen entwickeln wir Varianten mit 30-50 % PCR. Den endgültigen Anteil bestätigen wir nach Analyse von Maschine, aktueller Folie, optischen Anforderungen und einem Linienversuch. Wir unterscheiden PCR und PIR und dokumentieren den Rezyklatanteil in der ISCC PLUS Kette (Massenbilanz). Eine „PPWR-Konformität“ erklären wir nicht ohne Bestätigung der Verpackungskategorie und der Dokumentation."
+    },
+    "Palety stoją na placu. Czy folia to wytrzyma?": {
+      "en": "Our pallets are stored outdoors. Will the film cope?",
+      "de": "Unsere Paletten stehen im Freien. Hält die Folie das aus?"
+    },
+    "Do składowania na zewnątrz stosujemy dodatki UV stabilizujące folię przy ekspozycji na słońce. Czas składowania i trasy to jedno z pytań specyfikacji: od tego zależy dobór stabilizacji i grubości.": {
+      "en": "For outdoor storage we use UV additives that stabilise the film under sun exposure. Storage time and routes are part of the specification, because they determine the stabilisation and thickness.",
+      "de": "Für die Lagerung im Freien setzen wir UV-Additive ein, die die Folie bei Sonneneinstrahlung stabilisieren. Lagerdauer und Transportwege gehören zur Spezifikation, denn davon hängen Stabilisierung und Dicke ab."
+    },
+    "Ile formatów palet obsłużycie i jakie są terminy?": {
+      "en": "How many pallet formats can you handle and what are the lead times?",
+      "de": "Wie viele Palettenformate decken Sie ab und wie sind die Lieferzeiten?"
+    },
+    "Rękaw z zakładkami albo kaptur dopasowujemy do każdego formatu i wysokości palety, przy szerokości do 2600 mm. Seria od 500 kg na indeks, standardowy termin 3-4 tygodnie, express 7-10 dni, rolki próbne w 5-10 dni roboczych.": {
+      "en": "We match a gusseted sleeve or hood to any pallet format and height, up to 2600 mm wide. Runs from 500 kg per item, standard lead time 3-4 weeks, express 7-10 days, trial rolls in 5-10 working days.",
+      "de": "Seitenfaltenschlauch oder Haube passen wir an jedes Palettenformat und jede Höhe an, bis 2600 mm Breite. Mengen ab 500 kg pro Artikel, Standardlieferzeit 3-4 Wochen, Express 7-10 Tage, Musterrollen in 5-10 Werktagen."
+    },
+    "Rozmowa": {
+      "en": "Talk to us",
+      "de": "Gespräch"
+    },
+    "Porozmawiajmy o Waszej palecie": {
+      "en": "Let's talk about your pallet",
+      "de": "Sprechen wir über Ihre Palette"
+    },
+    "20 minut z technologiem Kablonex. Bez prezentacji handlowej: Wasza maszyna, formaty palet i wynik z kalkulatora.": {
+      "en": "20 minutes with a Kablonex technologist. No sales pitch: your machine, pallet formats and your calculator result.",
+      "de": "20 Minuten mit einem Technologen von Kablonex. Keine Verkaufspräsentation: Ihre Maschine, Ihre Palettenformate und Ihr Rechenergebnis."
+    },
+    "Umów rozmowę z technologiem": {
+      "en": "Book a call with a technologist",
+      "de": "Gespräch mit einem Technologen vereinbaren"
+    },
+    "20 minut online albo telefonicznie. Termin ustalimy po zgłoszeniu.": {
+      "en": "20 minutes online or by phone. We will agree the time after you get in touch.",
+      "de": "20 Minuten online oder telefonisch. Den Termin vereinbaren wir nach Ihrer Anfrage."
+    },
+    "Wyślijcie wynik formularzem obok, a technolog oddzwoni i umówi termin rozmowy w ciągu 24 h w dni robocze.": {
+      "en": "Send your result using the form next to this, and a technologist will call you back to arrange a time within 24 hours on working days.",
+      "de": "Senden Sie Ihr Ergebnis über das Formular daneben, und ein Technologe ruft Sie innerhalb von 24 Stunden an Werktagen zurück, um einen Termin zu vereinbaren."
+    },
+    "Wyślij wynik do technologa": {
+      "en": "Send your result to a technologist",
+      "de": "Ergebnis an einen Technologen senden"
+    },
+    "Policz folię na paletę": {
+      "en": "Calculate film per pallet",
+      "de": "Folie pro Palette berechnen"
+    },
+    "np. 9,50": {
+      "en": "e.g. 2.20",
+      "de": "z. B. 2,20"
+    },
+    "Waluta": {
+      "en": "Currency",
+      "de": "Währung"
+    },
+    "Maszyny, z którymi pracujemy": {
+      "en": "Machines we work with",
+      "de": "Maschinen, mit denen wir arbeiten"
+    },
+    "Formularz działa na stronie Kablonex. Technolog odpowiada w ciągu 24 h w dni robocze.": {
+      "en": "The form works on the Kablonex website. A technologist replies within 24 hours on working days.",
+      "de": "Das Formular finden Sie auf der Kablonex-Website. Ein Technologe antwortet innerhalb von 24 Stunden an Werktagen."
+    },
+    "Przejdź do formularza na kablonex.pl": {
+      "en": "Go to the form on kablonex.pl",
+      "de": "Zum Formular auf kablonex.pl"
+    }
+  },
+  "script": {
+    "<b>Do wiadomości dołączymy wynik kalkulatora:</b><br>": {
+      "en": "<b>We will add your calculator result to the message:</b><br>",
+      "de": "<b>Wir fügen Ihr Rechenergebnis der Nachricht bei:</b><br>"
+    },
+    "<p>Nie korzystaliście z kalkulatora. Podajcie dwie liczby albo <a href=\"#kalkulator\">policzcie w 2 minuty</a>.</p><div class=\"grid2\"><div class=\"fld\"><label for=\"kxh_f_pal\">Palet rocznie <span class=\"req\">*</span></label><div class=\"inp\"><input id=\"kxh_f_pal\" inputmode=\"numeric\" required><span>szt.</span></div></div><div class=\"fld\"><label for=\"kxh_f_t\">Obecna grubość <span class=\"req\">*</span></label><div class=\"inp\"><input id=\"kxh_f_t\" inputmode=\"decimal\" required><span>µm</span></div></div></div>": {
+      "en": "<p>You have not used the calculator. Enter two numbers or <a href=\"#kalkulator\">calculate in 2 minutes</a>.</p><div class=\"grid2\"><div class=\"fld\"><label for=\"kxh_f_pal\">Pallets per year <span class=\"req\">*</span></label><div class=\"inp\"><input id=\"kxh_f_pal\" inputmode=\"numeric\" required><span>pcs</span></div></div><div class=\"fld\"><label for=\"kxh_f_t\">Current thickness <span class=\"req\">*</span></label><div class=\"inp\"><input id=\"kxh_f_t\" inputmode=\"decimal\" required><span>µm</span></div></div></div>",
+      "de": "<p>Sie haben den Rechner nicht genutzt. Geben Sie zwei Zahlen ein oder <a href=\"#kalkulator\">berechnen Sie in 2 Minuten</a>.</p><div class=\"grid2\"><div class=\"fld\"><label for=\"kxh_f_pal\">Paletten pro Jahr <span class=\"req\">*</span></label><div class=\"inp\"><input id=\"kxh_f_pal\" inputmode=\"numeric\" required><span>Stk.</span></div></div><div class=\"fld\"><label for=\"kxh_f_t\">Aktuelle Dicke <span class=\"req\">*</span></label><div class=\"inp\"><input id=\"kxh_f_t\" inputmode=\"decimal\" required><span>µm</span></div></div></div>"
+    },
+    "<h3>Wynik</h3><p style=\"margin:0\">Wpiszcie liczby większe od zera we wszystkich polach.</p>": {
+      "en": "<h3>Result</h3><p style=\"margin:0\">Enter numbers greater than zero in all fields.</p>",
+      "de": "<h3>Ergebnis</h3><p style=\"margin:0\">Geben Sie in allen Feldern Zahlen größer als null ein.</p>"
+    },
+    "<div class=\"now-row\"><span>Dziś: <b>": {
+      "en": "<div class=\"now-row\"><span>Today: <b>",
+      "de": "<div class=\"now-row\"><span>Heute: <b>"
+    },
+    " kg</b>/paletę</span><span><b>": {
+      "en": " kg</b>/pallet</span><span><b>",
+      "de": " kg</b>/Palette</span><span><b>"
+    },
+    " t</b>/rok</span>": {
+      "en": " t</b>/year</span>",
+      "de": " t</b>/Jahr</span>"
+    },
+    "</b>/rok</span>": {
+      "en": "</b>/year</span>",
+      "de": "</b>/Jahr</span>"
+    },
+    " m²</b> rękawa</span>": {
+      "en": " m²</b> of sleeve</span>",
+      "de": " m²</b> Schlauch</span>"
+    },
+    " t</b> recyklatu przy ": {
+      "en": " t</b> of recycled content at ",
+      "de": " t</b> Rezyklat bei "
+    },
+    "<p class=\"caveat\">Scenariusz do weryfikacji próbą na Waszej linii. Nie deklarujemy grubości przed próbą.</p>": {
+      "en": "<p class=\"caveat\">A scenario to be verified by a trial on your line. We do not commit to a thickness before the trial.</p>",
+      "de": "<p class=\"caveat\">Ein Szenario, das per Versuch auf Ihrer Linie zu prüfen ist. Wir sagen keine Dicke vor dem Versuch zu.</p>"
+    },
+    "<div class=\"lab\">Możliwa oszczędność rocznie · <span>": {
+      "en": "<div class=\"lab\">Possible annual saving · <span>",
+      "de": "<div class=\"lab\">Mögliche Einsparung pro Jahr · <span>"
+    },
+    " µm zamiast ": {
+      "en": " µm instead of ",
+      "de": " µm statt "
+    },
+    "/rok</small></div>": {
+      "en": "/year</small></div>",
+      "de": "/Jahr</small></div>"
+    },
+    "<small>t folii/rok</small></div>": {
+      "en": "<small>t of film/year</small></div>",
+      "de": "<small>t Folie/Jahr</small></div>"
+    },
+    " t folii</b> i <b>−": {
+      "en": " t of film</b> and <b>−",
+      "de": " t Folie</b> und <b>−"
+    },
+    "%</b> masy na każdej palecie": {
+      "en": "%</b> weight on every pallet",
+      "de": "%</b> Gewicht auf jeder Palette"
+    },
+    ", przy Waszej cenie ": {
+      "en": ", at your price of ",
+      "de": ", bei Ihrem Preis von "
+    },
+    "</b>w 5 lat</div>": {
+      "en": "</b>over 5 years</div>",
+      "de": "</b>in 5 Jahren</div>"
+    },
+    " t</b>folii w 5 lat</div>": {
+      "en": " t</b>of film over 5 years</div>",
+      "de": " t</b>Folie in 5 Jahren</div>"
+    },
+    " dni</b>produkcji rocznie bez kupowania folii</div>": {
+      "en": " days</b>of production a year without buying film</div>",
+      "de": " Tage</b>Produktion pro Jahr ohne Folienkauf</div>"
+    },
+    "</b>palet rocznie owiniętych „za darmo”</div>": {
+      "en": "</b>pallets a year wrapped “for free”</div>",
+      "de": "</b>Paletten pro Jahr „kostenlos“ verpackt</div>"
+    },
+    "<p class=\"ask\">Wpiszcie Waszą cenę za kg, a pokażemy tę kwotę w złotówkach.</p>": {
+      "en": "<p class=\"ask\">Enter your price per kg and we will show this amount in your currency.</p>",
+      "de": "<p class=\"ask\">Geben Sie Ihren Preis pro kg ein, dann zeigen wir den Betrag in Ihrer Währung.</p>"
+    },
+    "<div class=\"pick\">Scenariusz: ": {
+      "en": "<div class=\"pick\">Scenario: ",
+      "de": "<div class=\"pick\">Szenario: "
+    },
+    "<p class=\"proof-l\">W hucie szkła zeszliśmy ze 130 do 90 µm (−31%), w części dostaw do 70 µm. <a href=\"": {
+      "en": "<p class=\"proof-l\">At one glassworks we went from 130 to 90 µm (−31%), 70 µm in some deliveries. <a href=\"",
+      "de": "<p class=\"proof-l\">In einer Glashütte sind wir von 130 auf 90 µm gegangen (−31 %), in einem Teil der Lieferungen auf 70 µm. <a href=\""
+    },
+    "\">Zobacz case</a></p>": {
+      "en": "\">See the case</a></p>",
+      "de": "\">Zur Fallstudie</a></p>"
+    },
+    "dziś": {
+      "en": "today",
+      "de": "heute"
+    },
+    "<div class=\"btns\"><a class=\"btn btn-red\" href=\"#rozmowa\" data-ev=\"booking_click\">Sprawdźmy te ": {
+      "en": "<div class=\"btns\"><a class=\"btn btn-red\" href=\"#rozmowa\" data-ev=\"booking_click\">Let's verify these ",
+      "de": "<div class=\"btns\"><a class=\"btn btn-red\" href=\"#rozmowa\" data-ev=\"booking_click\">Prüfen wir diese "
+    },
+    " (20 min) <span class=\"ic\" aria-hidden=\"true\">→</span></a><a class=\"btn btn-soft\" href=\"#kxh_form\">Wyślij wynik</a></div>": {
+      "en": " (20 min) <span class=\"ic\" aria-hidden=\"true\">→</span></a><a class=\"btn btn-soft\" href=\"#kxh_form\">Send result</a></div>",
+      "de": " (20 Min.) <span class=\"ic\" aria-hidden=\"true\">→</span></a><a class=\"btn btn-soft\" href=\"#kxh_form\">Ergebnis senden</a></div>"
+    },
+    "<h3>Wynik dla Waszej palety</h3>": {
+      "en": "<h3>Result for your pallet</h3>",
+      "de": "<h3>Ergebnis für Ihre Palette</h3>"
+    },
+    "<p style=\"margin:0\">Przy tej grubości liczymy z Wami indywidualnie: granicę pocienienia wyznacza próba na linii.</p>": {
+      "en": "<p style=\"margin:0\">At this thickness we calculate with you individually: the downgauging limit is set by a line trial.</p>",
+      "de": "<p style=\"margin:0\">Bei dieser Dicke rechnen wir individuell mit Ihnen: die Grenze der Dickenreduzierung bestimmt ein Linienversuch.</p>"
+    },
+    "<div class=\"btns\"><a class=\"btn btn-red\" href=\"#rozmowa\" data-ev=\"booking_click\">Omów wynik (20 min) <span class=\"ic\" aria-hidden=\"true\">→</span></a><a class=\"btn btn-soft\" href=\"#kxh_form\">Wyślij wynik</a></div>": {
+      "en": "<div class=\"btns\"><a class=\"btn btn-red\" href=\"#rozmowa\" data-ev=\"booking_click\">Discuss the result (20 min) <span class=\"ic\" aria-hidden=\"true\">→</span></a><a class=\"btn btn-soft\" href=\"#kxh_form\">Send result</a></div>",
+      "de": "<div class=\"btns\"><a class=\"btn btn-red\" href=\"#rozmowa\" data-ev=\"booking_click\">Ergebnis besprechen (20 Min.) <span class=\"ic\" aria-hidden=\"true\">→</span></a><a class=\"btn btn-soft\" href=\"#kxh_form\">Ergebnis senden</a></div>"
+    },
+    "Paleta ": {
+      "en": "Pallet ",
+      "de": "Palette "
+    },
+    " mm, ": {
+      "en": " mm, ",
+      "de": " mm, "
+    },
+    "z zakładkami": {
+      "en": "gusseted",
+      "de": "mit Seitenfalten"
+    },
+    "bez zakładek": {
+      "en": "flat",
+      "de": "ohne Seitenfalten"
+    },
+    " palet/rok · ": {
+      "en": " pallets/year · ",
+      "de": " Paletten/Jahr · "
+    },
+    " kg/paletę · ": {
+      "en": " kg/pallet · ",
+      "de": " kg/Palette · "
+    },
+    " t/rok": {
+      "en": " t/year",
+      "de": " t/Jahr"
+    },
+    " · koszt ": {
+      "en": " · cost ",
+      "de": " · Kosten "
+    },
+    "/rok przy ": {
+      "en": "/year at ",
+      "de": "/Jahr bei "
+    },
+    " · OSZCZĘDNOŚĆ przy ": {
+      "en": " · SAVING at ",
+      "de": " · EINSPARUNG bei "
+    },
+    " t/rok (−": {
+      "en": " t/year (−",
+      "de": " t/Jahr (−"
+    },
+    "/rok": {
+      "en": "/year",
+      "de": "/Jahr"
+    },
+    "Umów 20 min z technologiem": {
+      "en": "Book 20 min with a technologist",
+      "de": "20 Min. mit einem Technologen vereinbaren"
+    }
+  }
+}

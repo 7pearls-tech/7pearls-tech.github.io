@@ -1,0 +1,16 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<div class="proofbar">
+  <div class="wrap">
+    <div class="pb rv"><b>{t("55 lat")}</b><span>{t("producent folii")}</span></div>
+    <div class="pb rv"><b>{t("ok. 25 000 t")}</b><span>{t("folii rocznie")}</span></div>
+    <div class="pb rv"><b>{t("18 linii")}</b><span>{t("ekstruzji, 3 i 5 warstw")}</span></div>
+    <div class="pb rv"><b>{t("do 10 kolorów")}</b><span>{t("flexo we własnej drukarni")}</span></div>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+---
+// Loga certyfikatów. Na kablonex.pl to wzorzec WP 373 (slider); tu statyczny rząd.
+const logos = [
+  { src: 'https://kablonex.pl/wp-content/uploads/2026/06/ISO-9001_1.png', alt: 'ISO 9001' },
+  { src: 'https://kablonex.pl/wp-content/uploads/2026/06/BRC1-1024x770.png', alt: 'BRCGS' },
+  { src: 'https://kablonex.pl/wp-content/uploads/2026/06/FSC_C229087_LOGO_portrait_White_Black1-scaled.png', alt: 'FSC C229087' },
+  { src: 'https://kablonex.pl/wp-content/uploads/2026/07/Ecovadis-1.png', alt: 'EcoVadis' },
+  { src: 'https://kablonex.pl/wp-content/uploads/2026/04/nizp-atest-logo.png', alt: 'Atest NIZP PZH' },
+];
+---
+<div class="certs-row">
+  {logos.map((logo) => <img src={logo.src} alt={logo.alt} loading="lazy" decoding="async" />)}
+</div>
+
+<style>
+  .certs-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .certs-row img {
+    max-height: 40px;
+    max-width: 18%;
+    width: auto;
+    object-fit: contain;
+  }
+</style>

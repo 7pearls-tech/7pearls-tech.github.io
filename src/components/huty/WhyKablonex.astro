@@ -1,0 +1,24 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">{t("Dlaczego Kablonex")}</p>
+      <h2>{t("Producent folii, nie pośrednik")}</h2>
+      <p class="lead">{t("Kaptury paletowe robimy od lat 2000. Z tego wyrosła rodzina NEX-SHRINK. Ekstruzja, druk i recykling są pod jednym dachem, więc nie czekacie na nikogo po drodze.")}</p>
+    </div>
+    <div class="stats">
+      <div class="stat rv"><b>24 h</b><span>{t("odpowiedź technologa w dni robocze")}</span></div>
+      <div class="stat rv"><b>5-10</b><span>{t("dni na rolki próbne pod Waszą maszynę")}</span></div>
+      <div class="stat rv"><b>7-10</b><span>{t("dni na dostawę w trybie express")}</span></div>
+      <div class="stat rv"><b>500 kg</b><span>{t("seria minimalna na indeks")}</span></div>
+    </div>
+    <div class="pills rv"><span>POD ECO</span><span>ISCC PLUS</span><span>RecyClass</span><span>BRCGS</span><span>ISO 9001</span><span>EcoVadis</span></div>
+  </div>
+</section>

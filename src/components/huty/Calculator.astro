@@ -1,0 +1,50 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<section class="calc-sec" id="kalkulator">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">{t("Kalkulator")}</p>
+      <h2>{t("Ile folii na Waszą paletę?")}</h2>
+      <p class="lead">{t("Wpiszcie wymiary palety, obecną grubość rękawa i liczbę palet rocznie. Policzymy kilogramy dziś i scenariusze 90, 80 i 70 µm.")}</p>
+    </div>
+    <div class="calc rv">
+      <div class="c-in">
+        <h3>{t("Wasza paleta")}</h3>
+        <div class="grid3">
+          <div class="fld"><label for="kxh_L">{t("Długość")}</label><div class="inp"><input id="kxh_L" inputmode="decimal" value="1200"><span>mm</span></div></div>
+          <div class="fld"><label for="kxh_W">{t("Szerokość")}</label><div class="inp"><input id="kxh_W" inputmode="decimal" value="1000"><span>mm</span></div></div>
+          <div class="fld"><label for="kxh_H">{t("Wysokość ładunku")}</label><div class="inp"><input id="kxh_H" inputmode="decimal" value="2400"><span>mm</span></div></div>
+        </div>
+        <div class="fld"><label>{t("Typ rękawa")}</label>
+          <div class="seg" id="kxh_type"><button type="button" data-v="gusset" aria-pressed="true">{t("Z zakładkami")}</button><button type="button" data-v="flat" aria-pressed="false">{t("Bez zakładek")}</button></div>
+        </div>
+        <div class="grid2">
+          <div class="fld"><label for="kxh_t0">{t("Obecna grubość")}</label><div class="inp"><input id="kxh_t0" inputmode="decimal" value="130"><span>µm</span></div></div>
+          <div class="fld"><label for="kxh_pallets">{t("Palet rocznie")}</label><div class="inp"><input id="kxh_pallets" inputmode="numeric" value="60 000"><span>{t("szt.")}</span></div></div>
+        </div>
+        <div class="grid2">
+          <div class="fld"><label for="kxh_price">{t("Cena folii za kg (opcjonalnie)")}</label><div class="inp"><input id="kxh_price" inputmode="decimal" placeholder={t("np. 9,50")}><select id="kxh_cur" style="flex:0 0 84px" aria-label={t("Waluta")}>{cfg.currencies.map((c) => <option>{c}</option>)}</select></div><span class="hint">{t("Wasza cena. Nie publikujemy cen Kablonex.")}</span></div>
+          <div class="fld"><label for="kxh_pcr">{t("Udział PCR (opcjonalnie)")}</label><div class="inp"><select id="kxh_pcr"><option value="0">0%</option><option value="30">30%</option><option value="50">50%</option></select></div></div>
+        </div>
+        <details class="assume">
+          <summary>{t("Założenia orientacyjne: technolog dopasuje je do Waszej linii (możecie je zmienić)")}</summary>
+          <div class="grid2">
+            <div class="fld"><label for="kxh_a_top">{t("Naddatek góry")}</label><div class="inp"><input id="kxh_a_top" inputmode="decimal" value="100"><span>mm</span></div></div>
+            <div class="fld"><label for="kxh_a_under">{t("Undershrink pod płozami")}</label><div class="inp"><input id="kxh_a_under" inputmode="decimal" value="100"><span>mm</span></div></div>
+            <div class="fld"><label for="kxh_a_shrink">{t("Naddatek na obkurcz")}</label><div class="inp"><input id="kxh_a_shrink" inputmode="decimal" value="10"><span>%</span></div></div>
+            <div class="fld"><label for="kxh_a_flat">{t("Dodatek: bez zakładek")}</label><div class="inp"><input id="kxh_a_flat" inputmode="decimal" value="5"><span>%</span></div></div>
+            <div class="fld"><label for="kxh_a_rho">{t("Gęstość NEX-SHRINK GP")}</label><div class="inp"><input id="kxh_a_rho" inputmode="decimal" value="0,92"><span>g/cm³</span></div></div>
+          </div>
+          <p class="formula">{t("Powierzchnia rękawa = (obwód palety × (wysokość + naddatek góry + undershrink) + długość × szerokość) × (1 + naddatek na obkurcz). Masa = powierzchnia × grubość × gęstość.")}</p>
+        </details>
+      </div>
+      <div class="c-out" aria-live="polite" id="kxh_out"></div>
+    </div>
+  </div>
+</section>

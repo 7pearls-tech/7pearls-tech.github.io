@@ -1,0 +1,24 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<section>
+  <div class="wrap split">
+    <div class="sticky-col rv">
+      <p class="eyebrow">{t("Cold-end")}</p>
+      <h2>{t("Pięć rzeczy, które słyszymy na cold-endzie")}</h2>
+      <p class="lead">{t("Paleta szkła to kilkaset kilogramów kruchego ładunku. Koszt folii widać na fakturze, koszt złej folii widać w reklamacjach.")}</p>
+    </div>
+    <ol class="plist">
+      <li class="rv"><b>{t("„Płacimy za kilogram, a liczymy palety.”")}</b><span>{t("Folia grubsza „na wszelki wypadek” to najdroższy margines bezpieczeństwa w hucie. Każde 10 µm mniej to gramy na każdej palecie, razy cały rok produkcji.")}</span></li>
+      <li class="rv"><b>{t("„Dziura w kapturze to nie defekt folii, to przepakowanie palety.”")}</b><span>{t("Ostre krawędzie przekładek i naroża warstw przebijają folię o zbyt małej odporności na przebicie. Odporność buduje receptura i struktura, nie same mikrony.")}</span></li>
+      <li class="rv"><b>{t("„Paleta wyjeżdża idealna, dojeżdża luźna.”")}</b><span>{t("Eksport i plac pod chmurką testują siłę obkurczu, nie mikrony. Luz po wychłodzeniu i brak zakotwienia pod płozami kończą się tłuczeniem u klienta.")}</span></li>
+      <li class="rv"><b>{t("„Cel recyklatu jest w raporcie ESG, a na palecie wciąż virgin.”")}</b><span>{t("Warianty z 30-50% PCR, docelowy udział po analizie maszyny, folii i próbie na linii.")}</span></li>
+      <li class="rv"><b>{t("„Nowa wanna, nowy cold-end, stara specyfikacja folii.”")}</b><span>{t("Remont wanny albo nowa maszyna to najlepszy moment, żeby sprawdzić specyfikację folii, bo próba nie wchodzi wtedy w bieżący plan produkcji.")}</span></li>
+    </ol>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+---
+import { useT, type Lang } from '../../i18n/t';
+import { config } from '../../i18n/config';
+
+const { lang } = Astro.props as { lang: Lang };
+const t = useT(lang);
+const cfg = config[lang];
+---
+<section style="padding-top:0">
+  <div class="wrap">
+    <div class="rv">
+      <p class="eyebrow">{t("Współpraca")}</p>
+      <h2>{t("Od kalkulatora do wdrożenia")}</h2>
+    </div>
+    <div class="timeline">
+      <div class="tl rv"><small>{t("01 · 2 MIN")}</small><b>{t("Kalkulator")}</b><span>{t("Liczycie masę folii na paletę i scenariusze grubości.")}</span></div>
+      <div class="tl rv"><small>{t("02 · 20 MIN")}</small><b>{t("Rozmowa z technologiem")}</b><span>{t("Maszyna, formaty palet, trasy i obecna folia.")}</span></div>
+      <div class="tl rv"><small>{t("03 · 5-10 DNI")}</small><b>{t("Próba na linii")}</b><span>{t("Rolki próbne pod Waszą maszynę. Test na linii i na trasie, nie w laboratorium.")}</span></div>
+      <div class="tl rv"><small>{t("04 · 3-4 TYG.")}</small><b>{t("Wdrożenie")}</b><span>{t("Harmonogram dostaw pod plan produkcji, express 7-10 dni.")}</span></div>
+    </div>
+  </div>
+</section>
